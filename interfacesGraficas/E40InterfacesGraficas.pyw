@@ -14,6 +14,7 @@ except TclError:
 raiz.config(bg="blue")
 
 # Construyendo el Frame
+# Todo lo que aplicamos al Frame se lo podemos aplicar tambien a la raiz
 miFrame = Frame()
 #miFrame.pack(side="right", anchor="s") # Metemos el Frame en la ventana y lo posicionamos
 #miFrame.pack(fill="x") # Expande horizontalmente
@@ -23,7 +24,10 @@ miFrame.config(bg="red") # Damos color al Frame
 miFrame.config(width="650", height="350")
 miFrame.config(bd=35)# Cambiamos el tamaño del borde
 miFrame.config(relief="groove") # Cambiamos el tipo de borde
-miFrame.config(cursor="hand2") # Cambiamos el cursor
+miFrame.config(cursor="pirate") # Cambiamos el cursor
+
+
+
 raiz.mainloop()
 
 
