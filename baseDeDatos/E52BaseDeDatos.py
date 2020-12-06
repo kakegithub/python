@@ -1,5 +1,4 @@
 # Clausula UNIQUE
-# Operaciones CRUD
 
 import sqlite3
 
@@ -10,7 +9,7 @@ miCursor=miConexion.cursor()
 miCursor.execute('''
     CREATE TABLE PRODUCTOS (
         ID INTEGER PRIMARY KEY AUTOINCREMENT,
-        NOMBRE_ARTICULO VARCHAR(50),
+        NOMBRE_ARTICULO VARCHAR(50) UNIQUE,
         PRECIO INTEGER,
         SECCION VARCHAR(20)
     )
