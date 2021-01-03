@@ -1,0 +1,3 @@
+Hola eso es un fichero de texto
+de tres lineas.
+Saludos.
